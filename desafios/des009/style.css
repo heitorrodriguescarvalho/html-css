@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(100, 100, 100);
+}
+h1 {
+    color: white;
+}
+p {
+    color: white;
+    text-decoration: underline;
+}

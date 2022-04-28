@@ -1,0 +1,15 @@
+body {
+    position: relative;
+    height: 96vh;
+    width: 96vw;
+    background: rgb(0, 0, 50) url('images/espaco.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+
+#image-astronauta {
+    position: absolute;
+    max-width: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -24,8 +24,8 @@ a:hover {
 }
 
 header {
-    padding-top: 4vw;
-    padding-bottom: 3vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: black;
     text-align: center;
 }
@@ -33,7 +33,7 @@ header {
 header > h1 {
     font-family: var(--fonte2);
     font-variant: small-caps;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 10vw;
     color: white;
 }
@@ -46,7 +46,7 @@ main p {
     font-family: var(--fonte3);
     font-size: 3.5vw;
     line-height: 2em;
-    padding: 5vw;
+    padding-bottom: 2em;
 }
 
 .section-normal {
@@ -59,6 +59,10 @@ main p {
     margin: 70px;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.6);
+}
+
+.section-image {
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
 }
 
 #image1 {

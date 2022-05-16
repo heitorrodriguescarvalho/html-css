@@ -12,23 +12,41 @@
 
         table {
             width: 400px;
-            border: 5px solid darkcyan;
+            height: 400px;
+            border: black;
             border-collapse: collapse;
-        }
-
-        .linha {
-            background-color: gray;
         }
 
         td {
             border: 1px solid black;
             padding: 5px;
             margin: 0px;
+            text-align: center;
+            vertical-align: middle;
         }
 
-        .dado {
-            color: blueviolet;
-            background-color: darkred;
+        .top {
+            vertical-align: top;
+        }
+
+        .middle {
+            vertical-align: middle;
+        }
+
+        .bottom {
+            vertical-align: bottom;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .left {
+            text-align: left;
         }
     </style>
 </head>
@@ -36,19 +54,19 @@
     <h1>Minha primeira tabela</h1>
     <table>
         <tr>
-            <td>A1</td>
-            <td>B1</td>
-            <td>C1</td>
-        </tr>
-        <tr class="linha">
-            <td>A2
-            <td>B2
-            <td>C2
+            <td class="top left">A1
+            <td class="top center">B1
+            <td class="top right">C1
         </tr>
         <tr>
-            <td class="dado">A3
-            <td>B3
-            <td>C3
+            <td class="middle left">A2
+            <td class="middle center">B2
+            <td class="middle right">C2
+        </tr>
+        <tr>
+            <td class="bottom left">A3
+            <td class="bottom center">B3
+            <td class="bottom right">C3
         </tr>
     </table>
 </body>
